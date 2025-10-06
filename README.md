@@ -41,7 +41,6 @@ Este gráfico visualiza as principais entregas parciais do projeto, alinhadas à
 
 <br>
 
-```mermaid
 gantt
     title Cronograma de Entregas - Crystal Clear (Prazo Total: 6 Meses)
 
