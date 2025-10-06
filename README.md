@@ -2,7 +2,7 @@
 
 ## TechConnect Solutions | Rede de Associações Comerciais
 
-Bem-vindos ao repositório do projeto **Sistema de Cadastro de Empresas Parceiras**. Este sistema visa otimizar a gestão de empresas parceiras com foco em segurança, responsividade e entregas incrementais.
+Bem-vindos ao repositório do projeto **Sistema de Cadastro de Empresas Parceiras**. Nosso objetivo é criar uma solução robusta e responsiva para a gestão de empresas parceiras.
 
 ---
 
@@ -31,21 +31,34 @@ O sistema deve incluir:
 | **Tester (QA)** | (Nome do Tester) |
 
 ### Agile: Crystal Clear
-O prazo é de **6 meses**. Usamos o **Crystal Clear** para gestão ágil, garantindo comunicação diária e **entregas incrementais** a cada 2-3 semanas para validação da Diretoria.
+O prazo é de **6 meses**. Usamos o **Crystal Clear** para gestão ágil, focando em comunicação diária e **entregas incrementais** (**E1** a **E5**) a cada 2-3 semanas para validação direta com a Diretoria.
 
 ---
 
 ## 📅 Cronograma de Entregas (Mermaid Gantt)
 
-Este gráfico visualiza os marcos principais e as entregas incrementais, cobrindo o prazo total de **6 meses** do projeto:
+Este gráfico visualiza os marcos principais e as entregas incrementais, cobrindo o prazo total de 6 meses do projeto:
 
 <br>
 
 ```mermaid
 gantt
-    title MARCOS DO PROJETO (6 MESES)
+    title MARCOS DO PROJETO (PRAZO TOTAL: 6 MESES)
 
     dateFormat  YYYY-MM-DD
     todayMarker off
 
-    section Preparação (Mês
+    section Preparação e Setup (Mês 1)
+    Documentação e Design :a1, 2025-01-01, 3w
+    Configuração do Ambiente :a2, after a1, 1w
+
+    section Entregas de Valor (Crystal Clear)
+    Login e Autenticação (E1) :b1, after a2, 2w
+    CRUD de Empresas (E2) :b2, after b1, 3w
+    Upload de Logotipo (E3) :b3, after b2, 2w
+    Relatórios/PDF (E4) :b4, after b3, 2w
+    Painel Admin/Permissões (E5) :b5, after b4, 2w
+
+    section Finalização (Meses 4-6)
+    Testes QA e Usabilidade :c1, after b5, 1.5M
+    Implantação e Entrega Final :c2, after c1, 1.5M
