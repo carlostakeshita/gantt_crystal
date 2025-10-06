@@ -31,13 +31,28 @@ O sistema deve incluir:
 | **Tester (QA)** | (Nome do Tester) |
 
 ### Agile: Crystal Clear
-O prazo é de **6 meses**. Usamos o **Crystal Clear** para gestão ágil, focando em comunicação diária e **entregas incrementais** (**E1** a **E5**) a cada 2-3 semanas para validação direta com a Diretoria.
+O prazo é de **6 meses**. Usamos o **Crystal Clear** para gestão ágil, focando em comunicação diária e **entregas incrementais** para validação direta com a Diretoria.
+
+---
+
+## 📦 Entregas Incrementais (Crystal Clear)
+
+As entregas parciais são o foco da nossa metodologia, garantindo que o cliente valide as funcionalidades a cada ciclo de desenvolvimento:
+
+| Entrega | Foco da Funcionalidade | Prazo Estimado | Participação do Cliente |
+| :--- | :--- | :--- | :--- |
+| **E1** | **Módulo de Login** funcionando (autenticação). | **Semana 3** | Revisão e Validação. |
+| **E2** | **CRUD de Empresas** ativo. | **Semana 6** | Validação da gestão de dados. |
+| **E3** | **Upload de Logotipo** integrado. | **Semana 8** | Validação do armazenamento. |
+| **E4** | **Relatórios** gerados em PDF e Excel. | **Semana 10** | Validação da exportação de dados. |
+| **E5** | **Painel Administrativo** com permissões. | **Semana 12** | Validação do controle de acesso. |
+| **Final** | Sistema Testado, Implantado e Validado. | **Mês 6** | Aceite formal. |
 
 ---
 
 ## 📅 Cronograma de Entregas (Mermaid Gantt)
 
-Este gráfico visualiza os marcos principais e as entregas incrementais, cobrindo o prazo total de 6 meses do projeto:
+Este gráfico visualiza os marcos principais e as entregas incrementais, cobrindo o prazo total de 6 meses:
 
 <br>
 
