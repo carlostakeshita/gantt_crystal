@@ -47,17 +47,19 @@ gantt
 
     dateFormat  YYYY-MM-DD
 
-    section Setup e Design
+    section Pré-Desenvolvimento (Mês 1)
     Documentação Funcional      :doc, 2025-01-01, 2w
     Setup Ambiente/BD           :setup, after doc, 1w
+    Design UI/UX (Rascunho)     :design, after setup, 2w
 
-    section Entregas Incrementais (Validação com Cliente)
+    section Entregas Incrementais (Validação Contínua)
     E1: Módulo de Login (Semana 3)  :e1, after setup, 2w
     E2: CRUD de Empresas (Semana 6) :e2, after e1, 3w
     E3: Upload de Logotipo (Semana 8) :e3, after e2, 2w
     E4: Relatórios PDF/Excel (Semana 10) :e4, after e3, 2w
     E5: Painel Admin/Permissões (Semana 12) :e5, after e4, 2w
 
-    section Finalização
-    Testes QA e Usabilidade     :qa, after e5, 6w
-    Implantação e Entrega Final :impl, after qa, 4w
+    section Finalização (Meses 4-6)
+    Revisão Geral e Refinamento   :rev, after e5, 2w
+    Testes QA e Usabilidade     :qa, after rev, 1.5M  
+    Implantação e Entrega Final :impl, after qa, 1.5M
